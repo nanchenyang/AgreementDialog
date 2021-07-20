@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="common_sheet_btn_primary">#58D5BD</color>
+    <color name="xm_text_primary_dark">#333333</color>
+
+    <color name="xm_text_primary">#ffffff</color>
+
+
+    <color name="common_sheet_btn_normal">#CBCBCB</color>
+</resources>

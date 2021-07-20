@@ -1,2 +1,3 @@
+include ':agreementdialog'
 include ':app'
-rootProject.name = "AgreementDialog"
+rootProject.name = "agreement-dialog"

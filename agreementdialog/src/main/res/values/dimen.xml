@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="xm_padding_vertical">10.0dp</dimen>
+    <dimen name="xm_padding_horizontal">15.0dp</dimen>
+
+    <dimen name="xm_text_size_l">17.0sp</dimen>
+    <dimen name="xm_text_size_m">15.0sp</dimen>
+    <dimen name="agreement_btn_radius">7dp</dimen>
+
+    <dimen name="xm_drawable_padding">4.0dp</dimen>
+</resources>

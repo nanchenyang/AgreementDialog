@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        style="@style/XmPadding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_corner_bg"
+        android:minWidth="300dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tvTitle"
+            style="@style/ItemTextPadding.light"
+            android:layout_gravity="center_horizontal"
+            android:singleLine="false"
+            android:textSize="@dimen/xm_text_size_l"
+            android:text="@string/agreement_tips" />
+
+        <TextView
+            android:id="@+id/tvContent"
+            style="@style/ItemTextPadding.light"
+            android:layout_gravity="center_horizontal"
+            android:maxHeight="265dp"
+            android:singleLine="false"
+            android:textSize="@dimen/xm_text_size_l"
+            tools:text="123456" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            style="@style/XmPadding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnCancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_agreement_cancel_btn"
+                android:minWidth="107dp"
+                android:minHeight="33dp"
+                android:text="@string/agreement_disagree"
+                android:textSize="@dimen/xm_text_size_l"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/btnConfirm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_agreement_confirm_btn"
+                android:minWidth="107dp"
+                android:minHeight="33dp"
+                android:text="@string/agreement_agree"
+                android:textSize="@dimen/xm_text_size_l"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </LinearLayout>
+</layout>

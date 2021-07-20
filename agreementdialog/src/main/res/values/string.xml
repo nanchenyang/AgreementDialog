@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="agreement_content_pre">Dear users, thank you for using this product! \nPlease read carefully and fully understand all contents of the service agreement and privacy policy, including but not limited to: \nIn order to provide you with a better user experience, we need to obtain your device information, location and other personal information. \nWithout your consent, we will not obtain, share or provide your information to any third party. \n You can read the</string>
+
+    <string name="agreement_content_suffix">for details.\nOnly with your consent, we can provide you with better service!</string>
+    <string name="agreement_content_protocol">《User Agreement》</string>
+
+    <string name="agreement_tips">Tips</string>
+    <string name="agreement_agree">Agree</string>
+    <string name="agreement_disagree">Disagree</string>
+</resources>
